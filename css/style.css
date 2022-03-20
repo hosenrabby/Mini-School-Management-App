@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.no-gutters {
+  padding-right: 0;
+  padding-left: 0;
+  }
+.no-gutters {padding-right:0;padding-left:0}
+body{
+	background-image: linear-gradient(to right , #FF9A00, #FFE400);
+	font-family: 'Montserrat', sans-serif;
+}
+.header{
+	margin: 50px;
+}
+.left{
+	margin-top: 150px;
+    text-align: center;
+}
+.left h3{
+	text-transform: uppercase;
+}
+.login_b button{
+	margin-right: -5px;
+	padding: 7px 15px;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid black;
+    border-right: none;
+    border-radius: 25px 0px 0px 25px;
+}
+.reg_b button{
+	padding: 7px 15px;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 0px 25px 25px 0px;
+}
+.left button:hover{
+	border: 1px solid black;
+	background:black;
+	transition: 0.5s;
+}
+.left button:active{
+	background: black;
+}
+.right{
+	margin-top: 50px;
+}
+.right input{
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+.right button{
+	padding: 7px 15px;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 25px;
+    float: right;
+}
+.right button:hover{
+	border: 1px solid black;
+	background:black;
+	transition: 0.5s;
+}
+.left img{
+	width: 50%;
+	margin-top: -50px;
+}
+.login_right{
+	margin-top: 130px;
+}
+.right select{
+	 background: transparent;
+	 border: none;
+     border-bottom: 1px solid;
+}
+.back_button button{
+	padding: 7px 15px;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.back_button button:hover{
+	border: 1px solid black;
+	background:black;
+	transition: 0.5s;
+}
+.list-group-item{
+	background-color: transparent !important;
+}
+.list-group-item a{
+	color: black;
+}
+.list-group-item a:hover{
+	color: white;
+	transition: 0.5s;
+	text-decoration: none;
+}
+.content{
+	min-height: 500px;
+}
+.content h1{
+	text-transform: uppercase;
+	color: black;
+}
+.title-m{
+	margin-left: 100px;
+}
+.card_content a{
+	color: black;
+}
+.card_content a:hover{
+	color: white;
+	transition: 0.5s;
+}
+.card_content i{
+	font-size: 18px;
+}
+.footer-area{
+	padding-top: 14px;
+    margin: 10px;
+    border: 1px solid;
+}
